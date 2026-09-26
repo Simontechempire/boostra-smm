@@ -1,0 +1,39 @@
+# ==========================
+# BOOSTRA SMM - RENDER ENV
+# ==========================
+
+NODE_ENV=production
+PORT=10000
+BASE_URL=https://boostra-smm.onrender.com
+
+# PostgreSQL
+DATABASE_URL=postgresql://USER:PASSWORD@HOST:5432/DATABASE
+
+# Security
+SESSION_SECRET=CHANGE_THIS_TO_A_LONG_RANDOM_SECRET
+JWT_SECRET=CHANGE_THIS_TO_ANOTHER_LONG_RANDOM_SECRET
+
+# 👑 Owner Control Panel PIN
+OWNER_PANEL_PIN=123456
+OWNER_EMAIL=your@email.com
+
+# 📧 Email verification
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=yourgmail@gmail.com
+SMTP_PASS=YOUR_GOOGLE_APP_PASSWORD
+MAIL_FROM=Boostra SMM <yourgmail@gmail.com>
+
+# 🔵 Google Sign-In
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+GOOGLE_CALLBACK_URL=https://boostra-smm.onrender.com/auth/google/callback
+
+# 🔌 FAMSUP
+FAMSUP_API_URL=https://famsup.com/api/v2
+FAMSUP_API_KEY=
+
+# 🤖 Telegram owner notifications
+TELEGRAM_BOT_TOKEN=
+OWNER_TELEGRAM_ID=
